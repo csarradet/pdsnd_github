@@ -15,7 +15,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello! Let\'s explore some US bikeshare data!\n(press Ctrl+C to exit at any time)')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = numeric_prompt('Choose a target city:', CITIES)
 
@@ -204,7 +204,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        restart = raw_input('\nEnter "y" to restart, "r" to see five lines of raw data, or anything else to exit: \n')
+        restart = raw_input('\nChoose an option:\n\tEnter "y" to restart\n\t"r" to see five lines of raw data\n\tanything else to exit: \n')
         if restart not in ['y', 'r']:
             break
 
