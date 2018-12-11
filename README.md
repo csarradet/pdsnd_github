@@ -5,7 +5,7 @@
 Bikeshare Data Explorer
 
 ### Description
-Describe what your project is about and what it does
+Provides an interactive interface for exploring the Udacity-provided bikeshare data using the Pandas library.
 
 ### Files used
 Include the files used
