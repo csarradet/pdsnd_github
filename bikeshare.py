@@ -204,7 +204,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        restart = raw_input('\nEnter "y" to restart, "r" to see five lines of raw data, or anything else to exit: \n')
+        restart = raw_input('\nChoose an option:\n\tEnter "y" to restart\n\t"r" to see five lines of raw data\n\tanything else to exit: \n')
         if restart not in ['y', 'r']:
             break
 
